@@ -18,6 +18,22 @@ footer {
   width: 20px;
 }
 
+.footer-icons:hover .footer-icons__img {
+  animation: 1.3s icons-moveup infinite;
+}
+
+@keyframes icons-moveup {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 .footer-icons {
   display: flex;
   justify-content: center;
